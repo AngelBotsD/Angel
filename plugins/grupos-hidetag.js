@@ -64,5 +64,5 @@ await conn.reply(m.chat, '⚠️ Error al reenviar: ' + err.message, m)
 handler.customPrefix = /^\.?n(\s|$)/i
 handler.command = new RegExp()
 handler.group = true
-handler.admin = true
+handler.admin = false
 export default handler
